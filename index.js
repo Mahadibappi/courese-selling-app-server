@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.send("Education server running");
 });
 
-app.get("/single-category", (req, res) => {
+app.get("/single-category/:id", (req, res) => {
   res.send(categories);
 });
 
