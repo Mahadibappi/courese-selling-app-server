@@ -14,6 +14,9 @@ app.get("/", (req, res) => {
 app.get("/single-category", (req, res) => {
   res.send(categories);
 });
+app.get("/single-category/:id", (req, res) => {
+  res.send(categories);
+});
 
 app.get("/courses", (req, res) => {
   res.send(courses);
