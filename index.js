@@ -11,11 +11,14 @@ app.get("/", (req, res) => {
   res.send("Education server running");
 });
 
-app.get("/single-category/:id", (req, res) => {
+app.get("/single-category", (req, res) => {
   res.send(categories);
 });
 
 app.get("/courses", (req, res) => {
+  res.send(courses);
+});
+app.get("/courses/:id", (req, res) => {
   res.send(courses);
 });
 
