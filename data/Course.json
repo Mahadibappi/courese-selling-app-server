@@ -1,0 +1,55 @@
+[
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6a",
+
+    "Course_id": "01",
+    "title": "JavaScript Fundamental",
+    "rating": 4.9,
+    "Price": "$ 50",
+    "img": "https://banner2.cleanpng.com/20180527/oio/kisspng-javascript-programming-language-ajax-5b0b285b692210.3071468515274578834306.jpg"
+  },
+
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6b",
+    "Course_id": "02",
+    "title": "React Fundamental",
+    "rating": 4.3,
+    "Price": "$ 40",
+    "img": "https://www.freecodecamp.org/news/content/images/2021/06/Ekran-Resmi-2019-11-18-18.08.13.png"
+  },
+
+  {
+    "_id": "f69a695f037cd9484cecaea37ca71011",
+
+    "Course_id": "03",
+    "title": "Nodejs",
+    "rating": 4.3,
+    "Price": "$ 60",
+    "img": "https://images.ctfassets.net/aq13lwl6616q/7cS8gBoWulxkWNWEm0FspJ/c7eb42dd82e27279307f8b9fc9b136fa/nodejs_cover_photo_smaller_size.png"
+  },
+  {
+    "_id": "f69a695f037cd9484cecaea37ca71012",
+    "Course_id": "04",
+    "title": "Python Fundamental",
+    "rating": 4.5,
+    "Price": "$ 100",
+    "img": "https://math.duke.edu/sites/math.duke.edu/files/styles/large/public/images/Featured%20Courses%20MTH%20260%20Python%20Programming%20in%20Math%20image.jpg.png?itok=kTIwZdBL"
+  },
+
+  {
+    "_id": "11468ed61aee84de492a8b04158a22f9",
+    "Course_id": "05",
+    "title": "MongoDB",
+    "rating": 4.3,
+    "Price": "$ 90",
+    "img": "https://newrelic.com/sites/default/files/styles/800w/public/2021-10/mongo_logo.jpg?itok=Z1PabBZB"
+  },
+  {
+    "_id": "11468ed61aee84de492a8b04158a22f0",
+    "Course_id": "06",
+    "title": "Data Structure & Algorithm",
+    "rating": 4.8,
+    "Price": "$ 100",
+    "img": "https://msatechnosoft.in/blog/wp-content/uploads/2018/09/Data-Structure-tutorial-MSA-Technosoft.jpg"
+  }
+]
