@@ -14,15 +14,15 @@ app.get("/", (req, res) => {
 app.get("/single-category", (req, res) => {
   res.send(categories);
 });
-app.get("/single-category/:id", (req, res) => {
-  res.send(categories);
-});
 
 app.get("/courses", (req, res) => {
   res.send(courses);
 });
+
 app.get("/courses/:id", (req, res) => {
-  res.send(courses);
+  const id = req.params.id;
+  const singleCourse = courses.find((course) => course._id === id);
+  res.send(singleCourse);
 });
 
 app.listen(port, () => {
